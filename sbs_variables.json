@@ -1,0 +1,76 @@
+[
+    {
+        "variable_type": "TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "t090Cm",
+            "t4990C",
+            "tnc90C",
+            "tv290C",
+            "t090C"
+        ],
+        "name": "t090C",
+        "format": "%f",
+        "units": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "TIME", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "timeK"
+        ],
+        "name": "timeK",
+        "format": "%f",
+        "units": "SBE timestamp: seconds since January 1, 2000"
+    },
+    {
+        "variable_type": "FLAG", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flag"
+        ],
+        "name": "flag",
+        "format": "%f",
+        "units": "SBE scan flag"
+    }, 
+    {
+        "variable_type": "PRESSURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "prdM"
+        ],
+        "name": "pm",
+        "format": "%f",
+        "units": "db"
+    }, 
+    {
+        "variable_type": "SALINITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sal00"
+        ],
+        "name": "psal0",
+        "format": "%f",
+        "units": "PSU"
+    }, 
+    {
+        "variable_type": "OXYGEN", 
+        "source": "RAW OXYGEN, SBE 43", 
+        "sbs_variable": [
+            "sbeox0Mg/L"
+        ],
+        "name": "sbeox0mg_L",
+        "format": "%f",
+        "units": "mg/L"
+    },
+    {
+        "variable_type": "SCAN COUNT", 
+        "source": "scan", 
+        "sbs_variable": [
+            "scan"
+        ],
+        "name": "scan",
+        "format": "%f",
+        "units": ""
+    }
+]
