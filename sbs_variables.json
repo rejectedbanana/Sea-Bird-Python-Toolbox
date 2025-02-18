@@ -3,15 +3,520 @@
         "variable_type": "TEMPERATURE", 
         "source": "PRIMARY", 
         "sbs_variable": [
-            "t090Cm",
-            "t4990C",
-            "tnc90C",
-            "tv290C",
-            "t090C"
+            "t090Cm","t4990C","tnc90C","tv290C","t090C"
         ],
-        "name": "t090C",
-        "format": "%f",
-        "units": "ITS-90, deg C"
+        "kname": "t090C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "t090F","t4990F","tnc90F","tv290F"
+        ],
+        "kname": "t090F",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "t068C","t4968C","tnc68C","tv268C"
+        ],
+        "kname": "t068C",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+    {
+        "variable_type": "TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": ["t068F","t4968F","tnc68F","tv268F"
+        ],
+        "kname": "t068F",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+    {
+        "variable_type": "TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "t090"
+        ],
+        "kname": "t090C",
+        "kformat": "%f",
+        "kunits": "SBE49, ITS-90, deg C"
+    },
+    {
+        "variable_type": "TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "t190C", "tnc290C"
+        ],
+        "kname": "t190C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "t190F", "tnc290F"
+        ],
+        "kname": "t190F",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "t168C", "tnc268C"
+        ],
+        "kname": "t168C",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+        {
+        "variable_type": "TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "t168F", "tnc268F"
+        ],
+        "kname": "t168F",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+    {
+        "variable_type": "SBE38 REFERENCE TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "t3890C", "t38_90C"
+        ],
+        "kname": "t03890C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "SBE38 REFERENCE TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "t3890F", "t38_90F"
+        ],
+        "kname": "t03868C",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+    {
+        "variable_type": "SBE38 REFERENCE TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "t3868C", "t38_68C"
+        ],
+        "kname": "",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "SBE38 REFERENCE TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "t3868F", "t38_68F"
+        ],
+        "kname": "t03868F",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+    {
+        "variable_type": "SBE38 REFERENCE TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "t3890C1"
+        ],
+        "kname": "t13890C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "SBE38 REFERENCE TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "t3890F1"
+        ],
+        "kname": "t13890F",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "SBE38 REFERENCE TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "t3868C1"
+        ],
+        "kname": "t13868C",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+    {
+        "variable_type": "SBE38 REFERENCE TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "t3868F1"
+        ],
+        "kname": "t13868F",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+    {
+        "variable_type": "TEMPERATURE DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "T2-T190C"
+        ],
+        "kname": "tdiff90C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "TEMPERATURE DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "T2-T190F"
+        ],
+        "kname": "tdiff90F",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "TEMPERATURE DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "T2-T168C"
+        ],
+        "kname": "tdiff68C",
+        "kformat": "%f",
+        "kunits": "IPTS-68, deg C"
+    },
+    {
+        "variable_type": "TEMPERATURE DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "T2-T168F"
+        ],
+        "kname": "tdiff68F",
+        "kformat": "%f",
+        "kunits": "IPTS-68, deg F"
+    },
+    {
+        "variable_type": "CONDUCTIVITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "c_S/m", "cond0S/m", "c0S/m"
+        ],
+        "kname": "c0Sm",
+        "kformat": "%f",
+        "kunits": "S/m"
+    },
+    {
+        "variable_type": "CONDUCTIVITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "c_mS/cm", "cond0mS/cm", "c0mS/cm"
+        ],
+        "kname": "c0mScm",
+        "kformat": "%f",
+        "kunits": "mS/cm"
+    },
+    {
+        "variable_type": "CONDUCTIVITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "c_uS/cm", "cond0uS/cm", "c0uS/cm"
+        ],
+        "kname": "c0uScm",
+        "kformat": "%f",
+        "kunits": "microS/cm"
+    },
+    {
+        "variable_type": "CONDUCTIVITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "c1S/m"
+        ],
+        "kname": "c1Sm",
+        "kformat": "%f",
+        "kunits": "S/m"
+    },
+    {
+        "variable_type": "CONDUCTIVITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "c1mS/cm"
+        ],
+        "kname": "c1mScm",
+        "kformat": "%f",
+        "kunits": "mS/cm"
+    },
+    {
+        "variable_type": "CONDUCTIVITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "c1uS/cm"
+        ],
+        "kname": "c1uScm",
+        "kformat": "%f",
+        "kunits": "microS/cm"
+    },
+    {
+        "variable_type": "CONDUCTIVITY DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "C2-C1S/m"
+        ],
+        "kname": "cdiffSm",
+        "kformat": "%f",
+        "kunits": "S/m"
+    },
+    {
+        "variable_type": "CONDUCTIVITY DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "C2-C1mS/cm"
+        ],
+        "kname": "cdiffmScm",
+        "kformat": "%f",
+        "kunits": "mS/cm"
+    },
+    {
+        "variable_type": "CONDUCTIVITY DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "C2-C1uS/cm"
+        ],
+        "kname": "cdiffuScm",
+        "kformat": "%f",
+        "kunits": "microS/cm"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "USER ENTERED VALUES", 
+        "sbs_variable": [
+            "pr"
+        ],
+        "kname": "p",
+        "kformat": "%f",
+        "kunits": "db"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "USER ENTERED VALUES", 
+        "sbs_variable": [
+            "prM"
+        ],
+        "kname": "pM",
+        "kformat": "%f",
+        "kunits": "db (user entered)"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "USER ENTERED VALUES", 
+        "sbs_variable": [
+            "prE"
+        ],
+        "kname": "pE",
+        "kformat": "%f",
+        "kunits": "psi (user entered)"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "DIGIQUARTZ", 
+        "sbs_variable": [
+            "prDM"
+        ],
+        "kname": "pm",
+        "kformat": "%f",
+        "kunits": "db"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "DIGIQUARTZ", 
+        "sbs_variable": [
+            "prDE"
+        ],
+        "kname": "pe",
+        "kformat": "%f",
+        "kunits": "psi"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "STRAIN GAUGE", 
+        "sbs_variable": [
+            "prSM", "prdM"
+        ],
+        "kname": "pm",
+        "kformat": "%f",
+        "kunits": "db"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "STRAIN GAUGE", 
+        "sbs_variable": [
+            "prSE",  "prdE"
+        ],
+        "kname": "pe",
+        "kformat": "%f",
+        "kunits": "psi"
+    },
+    {
+        "variable_type": "PRESSURE TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "ptempC"
+        ],
+        "kname": "ptempC",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "PRESSURE TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "ptempF"
+        ],
+        "kname": "ptempF",
+        "kformat": "%f",
+        "kunits": "deg F"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "FGP", 
+        "sbs_variable": [
+            "fgp0"
+        ],
+        "kname": "fgp0",
+        "kformat": "%f",
+        "kunits": "KPa"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "FGP", 
+        "sbs_variable": [
+            "fgp1"
+        ],
+        "kname": "fgp1",
+        "kformat": "%f",
+        "kunits": "KPa"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "FGP", 
+        "sbs_variable": [
+            "fgp2"
+        ],
+        "kname": "fgp2",
+        "kformat": "%f",
+        "kunits": "KPa"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "FGP", 
+        "sbs_variable": [
+            "fgp3"
+        ],
+        "kname": "fgp3",
+        "kformat": "%f",
+        "kunits": "KPa"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "FGP", 
+        "sbs_variable": [
+            "fgp4"
+        ],
+        "kname": "fgp4",
+        "kformat": "%f",
+        "kunits": "KPa"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "FGP", 
+        "sbs_variable": [
+            "fgp5"
+        ],
+        "kname": "fgp5",
+        "kformat": "%f",
+        "kunits": "KPa"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "FGP", 
+        "sbs_variable": [
+            "fgp6"
+        ],
+        "kname": "fgp6",
+        "kformat": "%f",
+        "kunits": "KPa"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "FGP", 
+        "sbs_variable": [
+            "fgp7"
+        ],
+        "kname": "fgp7",
+        "kformat": "%f",
+        "kunits": "KPa"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "SBE 50", 
+        "sbs_variable": [
+            "pr50M"
+        ],
+        "kname": "p050m",
+        "kformat": "%f",
+        "kunits": "db"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "SBE 50", 
+        "sbs_variable": [
+            "pr50E"
+        ],
+        "kname": "p050e",
+        "kformat": "%f",
+        "kunits": "psi"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "SBE 50", 
+        "sbs_variable": [
+            "pr50M1"
+        ],
+        "kname": "p150m",
+        "kformat": "%f",
+        "kunits": "db"
+    },
+    {
+        "variable_type": "PRESSURE", 
+        "source": "SBE 50", 
+        "sbs_variable": [
+            "pr50E1"
+        ],
+        "kname": "p150e",
+        "kformat": "%f",
+        "kunits": "psi"
+    },
+    {
+        "variable_type": "", 
+        "source": "", 
+        "sbs_variable": [
+            ""
+        ],
+        "kname": "",
+        "kformat": "%f",
+        "kunits": ""
     },
     {
         "variable_type": "TIME", 
@@ -19,9 +524,9 @@
         "sbs_variable": [
             "timeK"
         ],
-        "name": "timeK",
-        "format": "%f",
-        "units": "SBE timestamp: seconds since January 1, 2000"
+        "kname": "timeK",
+        "kformat": "%f",
+        "kunits": "SBE timestamp: seconds since January 1, 2000"
     },
     {
         "variable_type": "FLAG", 
@@ -29,9 +534,9 @@
         "sbs_variable": [
             "flag"
         ],
-        "name": "flag",
-        "format": "%f",
-        "units": "SBE scan flag"
+        "kname": "flag",
+        "kformat": "%f",
+        "kunits": "SBE scan flag"
     }, 
     {
         "variable_type": "PRESSURE", 
@@ -39,9 +544,9 @@
         "sbs_variable": [
             "prdM"
         ],
-        "name": "pm",
-        "format": "%f",
-        "units": "db"
+        "kname": "pm",
+        "kformat": "%f",
+        "kunits": "db"
     }, 
     {
         "variable_type": "SALINITY", 
@@ -49,9 +554,9 @@
         "sbs_variable": [
             "sal00"
         ],
-        "name": "psal0",
-        "format": "%f",
-        "units": "PSU"
+        "kname": "psal0",
+        "kformat": "%f",
+        "kunits": "PSU"
     }, 
     {
         "variable_type": "OXYGEN", 
@@ -59,9 +564,9 @@
         "sbs_variable": [
             "sbeox0Mg/L"
         ],
-        "name": "sbeox0mg_L",
-        "format": "%f",
-        "units": "mg/L"
+        "kname": "sbeox0mg_L",
+        "kformat": "%f",
+        "kunits": "mg/L"
     },
     {
         "variable_type": "SCAN COUNT", 
@@ -69,8 +574,8 @@
         "sbs_variable": [
             "scan"
         ],
-        "name": "scan",
-        "format": "%f",
-        "units": ""
+        "kname": "scan",
+        "kformat": "%f",
+        "kunits": ""
     }
 ]
