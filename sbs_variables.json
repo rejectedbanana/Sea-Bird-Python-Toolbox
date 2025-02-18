@@ -509,6 +509,696 @@
         "kunits": "psi"
     },
     {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f0"
+        ],
+        "kname": "f0",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f1"
+        ],
+        "kname": "f1",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f2"
+        ],
+        "kname": "f2",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f3"
+        ],
+        "kname": "f3",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f4"
+        ],
+        "kname": "f4",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f5"
+        ],
+        "kname": "f5",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f6"
+        ],
+        "kname": "f6",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f7"
+        ],
+        "kname": "f7",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f8"
+        ],
+        "kname": "f8",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f9"
+        ],
+        "kname": "f9",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f10"
+        ],
+        "kname": "f10",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f11"
+        ],
+        "kname": "f11",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f12"
+        ],
+        "kname": "f12",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f13"
+        ],
+        "kname": "f13",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f14"
+        ],
+        "kname": "f14",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f15"
+        ],
+        "kname": "f15",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f16"
+        ],
+        "kname": "f16",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f17"
+        ],
+        "kname": "f17",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f18"
+        ],
+        "kname": "f18",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f19"
+        ],
+        "kname": "f19",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f20"
+        ],
+        "kname": "f20",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f21"
+        ],
+        "kname": "f21",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f22"
+        ],
+        "kname": "f22",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f23"
+        ],
+        "kname": "f23",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f24"
+        ],
+        "kname": "f24",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f25"
+        ],
+        "kname": "f25",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f26"
+        ],
+        "kname": "f26",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f27"
+        ],
+        "kname": "f27",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f28"
+        ],
+        "kname": "f28",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f29"
+        ],
+        "kname": "f29",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f30"
+        ],
+        "kname": "f30",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f31"
+        ],
+        "kname": "f31",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f32"
+        ],
+        "kname": "f32",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f33"
+        ],
+        "kname": "f33",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f34"
+        ],
+        "kname": "f34",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f35"
+        ],
+        "kname": "f35",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "FREQUENCY", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "f36"
+        ],
+        "kname": "f36",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v0"
+        ],
+        "kname": "v0",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v1"
+        ],
+        "kname": "v1",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v2"
+        ],
+        "kname": "v2",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v3"
+        ],
+        "kname": "v3",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v4"
+        ],
+        "kname": "v4",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v5"
+        ],
+        "kname": "v5",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v6"
+        ],
+        "kname": "v6",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v7"
+        ],
+        "kname": "v7",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v8"
+        ],
+        "kname": "v8",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v9"
+        ],
+        "kname": "v9",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v10"
+        ],
+        "kname": "v10",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v11"
+        ],
+        "kname": "v11",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v12"
+        ],
+        "kname": "v12",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v13"
+        ],
+        "kname": "v13",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v14"
+        ],
+        "kname": "v14",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "VOLTAGE", 
+        "source": "RAW SENSOR OUTPUT", 
+        "sbs_variable": [
+            "v15"
+        ],
+        "kname": "v15",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "GTD-DO SENSOR PRESSURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "GTDDOP0"
+        ],
+        "kname": "GTDDOP0",
+        "kformat": "%f",
+        "kunits": "mb"
+    },
+    {
+        "variable_type": "GTD-DO SENSOR PRESSURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "GTDDOP1"
+        ],
+        "kname": "GTDDOP1",
+        "kformat": "%f",
+        "kunits": "mb"
+    },
+    {
+        "variable_type": "GTD-DO SENSOR PRESSURE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "GTDDOPdiff"
+        ],
+        "kname": "GTDDOPdiff",
+        "kformat": "%f",
+        "kunits": "mb"
+    },
+    {
+        "variable_type": "GTD-DO SENSOR TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "GTDDOT0"
+        ],
+        "kname": "GTDDOT0",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "GTD-DO SENSOR TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "GTDDOT1"
+        ],
+        "kname": "GTDDOT1",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "GTD-DO SENSOR TEMPERATURE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "GTDDOTdiff"
+        ],
+        "kname": "GTDDOTdiff",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "GTD-N2 SENSOR PRESSURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "GTDN2P0"
+        ],
+        "kname": "GTDN2P0",
+        "kformat": "%f",
+        "kunits": "mb"
+    },
+    {
+        "variable_type": "GTD-N2 SENSOR PRESSURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "GTDN2P1"
+        ],
+        "kname": "GTDN2P1",
+        "kformat": "%f",
+        "kunits": "mb"
+    },
+    {
+        "variable_type": "GTD-N2 SENSOR PRESSURE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "GTDN2Pdiff"
+        ],
+        "kname": "GTDN2Pdiff",
+        "kformat": "%f",
+        "kunits": "mb"
+    },
+    {
+        "variable_type": "GTD-N2 SENSOR TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "GTDN2T0"
+        ],
+        "kname": "GTDN2T0",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "GTD-N2 SENSOR TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "GTDN2T1"
+        ],
+        "kname": "GTDN2T1",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "GTD-N2 SENSOR TEMPERATURE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "GTDN2Tdiff"
+        ],
+        "kname": "GTDN2Tdiff",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "ELAPSED TIME", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "timeS"
+        ],
+        "kname": "timeS",
+        "kformat": "%f",
+        "kunits": "elapsed time seconds"
+    },
+    {
+        "variable_type": "ELAPSED TIME", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "timeM"
+        ],
+        "kname": "timeM",
+        "kformat": "%f",
+        "kunits": "elapsed time minutes"
+    },
+    {
+        "variable_type": "ELAPSED TIME", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "timeH"
+        ],
+        "kname": "timeH",
+        "kformat": "%f",
+        "kunits": "elapsed time hours"
+    },
+    {
+        "variable_type": "ELAPSED TIME", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "timeJ"
+        ],
+        "kname": "timeJ",
+        "kformat": "%f",
+        "kunits": "elapsed time Julian Days"
+    },
+    {
         "variable_type": "", 
         "source": "", 
         "sbs_variable": [

@@ -37,7 +37,7 @@ def rename_sbs_variable(sbs_variable):
     """
     for entry in data:
         if sbs_variable in entry["sbs_variable"]:
-            return entry["name"], entry["format"], entry["units"]
+            return entry["kname"], entry["kformat"], entry["kunits"]
     return None  # Return None if not found
 
 
@@ -64,8 +64,8 @@ def read(target_file):
         'longname': [],
         'units': [],
         'span': [],
-        'mvars': [],
-        'mvars_format': [], 
+        'kvars': [],
+        'kvars_format': [], 
         'data': {}  # Dictionary to store data columns
     }
 
@@ -144,13 +144,13 @@ def read(target_file):
     # Normalize variable names
     for var in s['vars']:
         mvar, mvar_format, _ = rename_sbs_variable(var)
-        s['mvars'].append(mvar)
-        s['mvars_format'].append(mvar_format)
+        s['kvars'].append(mvar)
+        s['kvars_format'].append(mvar_format)
 
     # Convert data lines into NumPy arrays
     if data_lines:
         data_array = np.loadtxt(data_lines)  # Convert data to NumPy array
-        for i, mvar in enumerate(s['mvars']):
+        for i, mvar in enumerate(s['kvars']):
             s['data'][mvar] = data_array[:, i]  # Assign each column to corresponding variable
 
     return s
