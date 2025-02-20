@@ -1199,6 +1199,342 @@
         "kunits": "elapsed time Julian Days"
     },
     {
+        "variable_type": "TIMESTAMP", 
+        "source": "NMEA", 
+        "sbs_variable": [
+            "timeN"
+        ],
+        "kname": "timeN",
+        "kformat": "%f",
+        "kunits": "From NMEA: seconds since January 1, 2000;"
+    },
+    {
+        "variable_type": "TIMESTAMP", 
+        "source": "NMEA", 
+        "sbs_variable": [
+            "timeQ"
+        ],
+        "kname": "timeQ",
+        "kformat": "%f",
+        "kunits": "From NMEA: seconds since January 1, 1970"
+    },
+    {
+        "variable_type": "TIMESTAMP", 
+        "source": "INSTRUMENT INTERNAL CLOCK", 
+        "sbs_variable": [
+            "timeK"
+        ],
+        "kname": "timeK",
+        "kformat": "%f",
+        "kunits": "SBE timestamp: seconds since January 1, 2000"
+    },
+    {
+        "variable_type": "TIMESTAMP", 
+        "source": "INSTRUMENT INTERNAL CLOCK", 
+        "sbs_variable": [
+            "timeJV2", "timeSCP"
+        ],
+        "kname": "jdays",
+        "kformat": "%f",
+        "kunits": "SBE timestamp: julian days"
+    },
+    {
+        "variable_type": "TIMESTAMP", 
+        "source": "COMPUTER TIME", 
+        "sbs_variable": [
+            "timeY"
+        ],
+        "kname": "timeY",
+        "kformat": "%f",
+        "kunits": "Computer Time: seconds since January 1, 1970"
+    },
+    {
+        "variable_type": "POSIITON", 
+        "source": "NMEA", 
+        "sbs_variable": [
+            "latitude"
+        ],
+        "kname": "latitude",
+        "kformat": "%f",
+        "kunits": "from NMEA degrees"
+    },
+    {
+        "variable_type": "POSITION", 
+        "source": "NMEA", 
+        "sbs_variable": [
+            "longitude"
+        ],
+        "kname": "longitude",
+        "kformat": "%f",
+        "kunits": "from NMEA degrees"
+    },
+    {
+        "variable_type": "DEPTH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "depSM"
+        ],
+        "kname": "depSM",
+        "kformat": "%f",
+        "kunits": "depth salt water, m"
+    },
+    {
+        "variable_type": "DEPTH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "depSF"
+        ],
+        "kname": "depSF",
+        "kformat": "%f",
+        "kunits": "depth salt water, ft"
+    },
+    {
+        "variable_type": "DEPTH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "depFM"
+        ],
+        "kname": "depFM",
+        "kformat": "%f",
+        "kunits": "depth fresh water, m"
+    },
+    {
+        "variable_type": "DEPTH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "depFF"
+        ],
+        "kname": "depFF",
+        "kformat": "%f",
+        "kunits": "depth fresh water, ft"
+    },
+    {
+        "variable_type": "DEPTH", 
+        "source": "NMEA", 
+        "sbs_variable": [
+            "dNMEA"
+        ],
+        "kname": "ddNMEA",
+        "kformat": "%f",
+        "kunits": "depth from NMEA salt water, m"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "potemp090C"
+        ],
+        "kname": "th090C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "potemp090F"
+        ],
+        "kname": "th090F",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "potemp068C"
+        ],
+        "kname": "th068C",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "potemp068F"
+        ],
+        "kname": "th068F",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "potemp190C"
+        ],
+        "kname": "th190C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "potemp190F"
+        ],
+        "kname": "th190F",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "potemp168C"
+        ],
+        "kname": "th168C",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "potemp168F"
+        ],
+        "kname": "th168F",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "potemp90Cdiff"
+        ],
+        "kname": "th090Cdiff",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "potemp90Fdiff"
+        ],
+        "kname": "th090Fdiff",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "potemp68Cdiff"
+        ],
+        "kname": "th068Cdiff",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "potemp68Fdiff"
+        ],
+        "kname": "th068Fdiff",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+
+
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "tha090C"
+        ],
+        "kname": "tha090C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "tha090F"
+        ],
+        "kname": "tha090F",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "tha068C"
+        ],
+        "kname": "tha068C",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "tha068F"
+        ],
+        "kname": "tha068F",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+    
+
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "tha190C"
+        ],
+        "kname": "tha190C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "tha190F"
+        ],
+        "kname": "tha190F",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "tha168C"
+        ],
+        "kname": "tha168C",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg C"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "tha168F"
+        ],
+        "kname": "tha168F",
+        "kformat": "%f",
+        "kunits": "ITS-68, deg F"
+    },
+    {
+        "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "pta090C"
+        ],
+        "kname": "pta090C",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+
+    
+    {
         "variable_type": "", 
         "source": "", 
         "sbs_variable": [
@@ -1208,16 +1544,8 @@
         "kformat": "%f",
         "kunits": ""
     },
-    {
-        "variable_type": "TIME", 
-        "source": "PRIMARY", 
-        "sbs_variable": [
-            "timeK"
-        ],
-        "kname": "timeK",
-        "kformat": "%f",
-        "kunits": "SBE timestamp: seconds since January 1, 2000"
-    },
+
+
     {
         "variable_type": "FLAG", 
         "source": "PRIMARY", 
@@ -1227,16 +1555,6 @@
         "kname": "flag",
         "kformat": "%f",
         "kunits": "SBE scan flag"
-    }, 
-    {
-        "variable_type": "PRESSURE", 
-        "source": "PRIMARY", 
-        "sbs_variable": [
-            "prdM"
-        ],
-        "kname": "pm",
-        "kformat": "%f",
-        "kunits": "db"
     }, 
     {
         "variable_type": "SALINITY", 
