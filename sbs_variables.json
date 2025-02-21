@@ -1532,8 +1532,250 @@
         "kformat": "%f",
         "kunits": "ITS-90, deg C"
     },
+    {
+        "variable_type": "SALINITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sal00"
+        ],
+        "kname": "psal0",
+        "kformat": "%f",
+        "kunits": "PSU"
+    },
+    {
+        "variable_type": "SALINITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sal11"
+        ],
+        "kname": "psal1",
+        "kformat": "%f",
+        "kunits": "PSU"
+    },
+    {
+        "variable_type": "SALINITY DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "secS-priS"
+        ],
+        "kname": "psaldiff",
+        "kformat": "%f",
+        "kunits": "PSU"
+    },
 
-    
+    {
+        "variable_type": "DENSITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "density00"
+        ],
+        "kname": "rho0",
+        "kformat": "%f",
+        "kunits": "density, kg/m^3"
+    },
+    {
+        "variable_type": "DENSITY", 
+        "source": "SECONDAY", 
+        "sbs_variable": [
+            "density11"
+        ],
+        "kname": "rho1",
+        "kformat": "%f",
+        "kunits": "density, kg/m^3"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sigma-�00"
+        ],
+        "kname": "sgth0",
+        "kformat": "%f",
+        "kunits": "sigma-theta (p=0 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            ""
+        ],
+        "kname": "",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA T)", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sigma-t00"
+        ],
+        "kname": "sgt0",
+        "kformat": "%f",
+        "kunits": "sigma-t (p=0 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA T)", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sigma-t11"
+        ],
+        "kname": "sgt1",
+        "kformat": "%f",
+        "kunits": "sigma-t (p=0 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sigma-100"
+        ],
+        "kname": "sg10",
+        "kformat": "%f",
+        "kunits": "sigma-1 (p=1000 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sigma-200"
+        ],
+        "kname": "sg20",
+        "kformat": "%f",
+        "kunits": "sigma-2 (p=2000 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sigma-300"
+        ],
+        "kname": "sg30",
+        "kformat": "%f",
+        "kunits": "sigma-3 (p=3000 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sigma-400"
+        ],
+        "kname": "sg40",
+        "kformat": "%f",
+        "kunits": "sigma-4 (p=4000 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sigma-111"
+        ],
+        "kname": "sg11",
+        "kformat": "%f",
+        "kunits": "sigma-1 (p=1000 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sigma-211"
+        ],
+        "kname": "sg21",
+        "kformat": "%f",
+        "kunits": "sigma-2 (p=2000 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sigma-311"
+        ],
+        "kname": "sg31",
+        "kformat": "%f",
+        "kunits": "sigma-3 (p=3000 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY (SIGMA THETA)", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sigma-411"
+        ],
+        "kname": "sg41",
+        "kformat": "%f",
+        "kunits": "sigma-4 (p=4000 db), kg/m^3-1000"
+    },
+    {
+        "variable_type": "DENSITY DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "D2-D1, d"
+        ],
+        "kname": "rhodiff",
+        "kformat": "%f",
+        "kunits": "density, kg/m^3"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY DIFFERENCE (SIGMA-THETA)", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "D2-D1,th"
+        ],
+        "kname": "sgthdiff",
+        "kformat": "%f",
+        "kunits": "sigma-theta, kg/m^3"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY DIFFERENCE (SIGMA-T)", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "D2-D1,t"
+        ],
+        "kname": "sgtdiff",
+        "kformat": "%f",
+        "kunits": "sigma-t, kg/m^3"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY DIFFERENCE (SIGMA-THETA)", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "D2-D1,1"
+        ],
+        "kname": "sg1diff",
+        "kformat": "%f",
+        "kunits": "sigma-1 (p=1000 db), kg/m^3"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY DIFFERENCE (SIGMA-THETA)", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "D2-D1,2"
+        ],
+        "kname": "sg2diff",
+        "kformat": "%f",
+        "kunits": "sigma-2 (p=1000 db), kg/m^3"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY DIFFERENCE (SIGMA-THETA)", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "D2-D1,3"
+        ],
+        "kname": "sg3diff",
+        "kformat": "%f",
+        "kunits": "sigma-3 (p=1000 db), kg/m^3"
+    },
+    {
+        "variable_type": "POTENTIAL DENSITY DIFFERENCE (SIGMA-THETA)", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "D2-D1,4"
+        ],
+        "kname": "sg4diff",
+        "kformat": "%f",
+        "kunits": "sigma-4 (p=1000 db), kg/m^3"
+    },
+
+
+
     {
         "variable_type": "", 
         "source": "", 
@@ -1556,16 +1798,7 @@
         "kformat": "%f",
         "kunits": "SBE scan flag"
     }, 
-    {
-        "variable_type": "SALINITY", 
-        "source": "PRIMARY", 
-        "sbs_variable": [
-            "sal00"
-        ],
-        "kname": "psal0",
-        "kformat": "%f",
-        "kunits": "PSU"
-    }, 
+
     {
         "variable_type": "OXYGEN", 
         "source": "RAW OXYGEN, SBE 43", 
