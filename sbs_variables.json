@@ -1438,8 +1438,6 @@
         "kformat": "%f",
         "kunits": "ITS-68, deg F"
     },
-
-
     {
         "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
         "source": "PRIMARY", 
@@ -1480,8 +1478,6 @@
         "kformat": "%f",
         "kunits": "ITS-68, deg F"
     },
-    
-
     {
         "variable_type": "POTENTIAL TEMPERATURE ANOMALY", 
         "source": "SECONDARY", 
@@ -1562,7 +1558,6 @@
         "kformat": "%f",
         "kunits": "PSU"
     },
-
     {
         "variable_type": "DENSITY", 
         "source": "PRIMARY", 
@@ -1772,6 +1767,206 @@
         "kname": "sg4diff",
         "kformat": "%f",
         "kunits": "sigma-4 (p=1000 db), kg/m^3"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "svCM"
+        ],
+        "kname": "sv0CM",
+        "kformat": "%f",
+        "kunits": "Chen-Millero, m/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "svCF"
+        ],
+        "kname": "sv0CF",
+        "kformat": "%f",
+        "kunits": "Chen-Millero, ft/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "svDM"
+        ],
+        "kname": "sv0DM",
+        "kformat": "%f",
+        "kunits": "Delgrosso, m/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "svDF"
+        ],
+        "kname": "sv0DF",
+        "kformat": "%f",
+        "kunits": "Delgrosso, ft/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "svWM"
+        ],
+        "kname": "sv0WM",
+        "kformat": "%f",
+        "kunits": "Wilson, m/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "svWF"
+        ],
+        "kname": "sv0WF",
+        "kformat": "%f",
+        "kunits": "Wilson, ft/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "svCM1"
+        ],
+        "kname": "sv1CM",
+        "kformat": "%f",
+        "kunits": "Chen-Millero, m/"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "svCF1"
+        ],
+        "kname": "sv1CF",
+        "kformat": "%f",
+        "kunits": "Chen-Millero, ft/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "svDM1"
+        ],
+        "kname": "sv1DM",
+        "kformat": "%f",
+        "kunits": "Delgrosso, m/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "svDF1"
+        ],
+        "kname": "sv1DF",
+        "kformat": "%f",
+        "kunits": "Delgrosso, ft/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "svWM1"
+        ],
+        "kname": "sv1WM",
+        "kformat": "%f",
+        "kunits": "Wilson, m/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sv1WF"
+        ],
+        "kname": "svWF1",
+        "kformat": "%f",
+        "kunits": "Wilson, ft/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "iowSv"
+        ],
+        "kname": "iowSv",
+        "kformat": "%f",
+        "kunits": "IOW sound velocity sensor, m/s"
+    },
+    {
+        "variable_type": "SOUND VELOCITY DIFFERENCE", 
+        "source": "PRIMARY-SECONDARY", 
+        "sbs_variable": [
+            "sbeSv-iowSv"
+        ],
+        "kname": "svdiff",
+        "kformat": "%f",
+        "kunits": "SBE CTD - IOW SV sensor, m/s"
+    },
+    {
+        "variable_type": "AVERAGE SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "avgsvCM"
+        ],
+        "kname": "avgsvCM",
+        "kformat": "%f",
+        "kunits": "Chen-Millero, m/s"
+    },
+    {
+        "variable_type": "AVERAGE SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "avgsvCF"
+        ],
+        "kname": "avgsvCF",
+        "kformat": "%f",
+        "kunits": "Chen-Millero, ft/s"
+    },
+    {
+        "variable_type": "AVERAGE SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "avgsvDM"
+        ],
+        "kname": "avgsvDM",
+        "kformat": "%f",
+        "kunits": "Delgrosso, m/s"
+    },
+    {
+        "variable_type": "AVERAGE SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "avgsvDF"
+        ],
+        "kname": "avgsvDF",
+        "kformat": "%f",
+        "kunits": "Delgrosso, ft/s"
+    },
+    {
+        "variable_type": "AVERAGE SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "avgsvWM"
+        ],
+        "kname": "avgsvWM",
+        "kformat": "%f",
+        "kunits": "Wilson, m/s"
+    },
+    {
+        "variable_type": "AVERAGE SOUND VELOCITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "avgsvWF"
+        ],
+        "kname": "avgsvWF",
+        "kformat": "%f",
+        "kunits": "Wilson, ft/s"
     },
 
 
