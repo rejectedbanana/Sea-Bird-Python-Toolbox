@@ -2128,6 +2128,57 @@
         "kformat": "%f",
         "kunits": "10^-8 *rad^2/m"
     },
+    {
+        "variable_type": "THERMOSTERIC ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "tsa"
+        ],
+        "kname": "tsa",
+        "kformat": "%f",
+        "kunits": "10^-8 *m^3/kg"
+    },
+    {
+        "variable_type": "SPECIFIC CONDUCTANCE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "specc"
+        ],
+        "kname": "specc",
+        "kformat": "%f",
+        "kunits": "uS/cm"
+    },
+    {
+        "variable_type": "SPECIFIC CONDUCTANCE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "speccumhoscm"
+        ],
+        "kname": "speccumhoscm",
+        "kformat": "%f",
+        "kunits": "umhos/cm"
+    },
+    {
+        "variable_type": "SPECIFIC CONDUCTANCE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "speccmsm"
+        ],
+        "kname": "speccmsm",
+        "kformat": "%f",
+        "kunits": "mS/cm"
+    },
+    {
+        "variable_type": "SPECIFIC CONDUCTANCE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "speccmmhoscm"
+        ],
+        "kname": "speccmmhoscm",
+        "kformat": "%f",
+        "kunits": "mmhos/cm"
+    },
+
 
 
 
