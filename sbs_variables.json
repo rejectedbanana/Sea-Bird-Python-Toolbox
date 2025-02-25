@@ -1968,6 +1968,166 @@
         "kformat": "%f",
         "kunits": "Wilson, ft/s"
     },
+    {
+        "variable_type": "BUOYANCY FREQUENCY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "N"
+        ],
+        "kname": "N",
+        "kformat": "%f",
+        "kunits": "cycles/hour"
+    },
+    {
+        "variable_type": "BUOYANCY FREQUENCY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "N^2"
+        ],
+        "kname": "N2",
+        "kformat": "%f",
+        "kunits": "rad^2/s^2"
+    },
+    {
+        "variable_type": "ACCELERATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "accM"
+        ],
+        "kname": "accM",
+        "kformat": "%f",
+        "kunits": "m/s^2"
+    },
+    {
+        "variable_type": "ACCELERATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "accF"
+        ],
+        "kname": "accF",
+        "kformat": "%f",
+        "kunits": "ft/s^2"
+    },
+    {
+        "variable_type": "DESCENT RATE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "dz/dtM"
+        ],
+        "kname": "dzdtM",
+        "kformat": "%f",
+        "kunits": "m/s"
+    },
+    {
+        "variable_type": "DESCENT RATE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "dz/dtF"
+        ],
+        "kname": "dzdtF",
+        "kformat": "%f",
+        "kunits": "ft/s"
+    },
+    {
+        "variable_type": "SEAFLOOR DEPTH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sfdSM"
+        ],
+        "kname": "sfdSM",
+        "kformat": "%f",
+        "kunits": "salt water, m"
+    },
+    {
+        "variable_type": "SEAFLOOR DEPTH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sfdSF"
+        ],
+        "kname": "sfdSF",
+        "kformat": "%f",
+        "kunits": "salt water, ft"
+    },
+    {
+        "variable_type": "SEAFLOOR DEPTH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sfdFM"
+        ],
+        "kname": "sfdFM",
+        "kformat": "%f",
+        "kunits": "fresh water, m"
+    },
+    {
+        "variable_type": "SEAFLOOR DEPTH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sfdFF"
+        ],
+        "kname": "sfdFF",
+        "kformat": "%f",
+        "kunits": "fresh water, ft"
+    },
+    {
+        "variable_type": "DYNAMIC METERS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "dm"
+        ],
+        "kname": "dm",
+        "kformat": "%f",
+        "kunits": "10 J/kg"
+    },
+    {
+        "variable_type": "GEOPOTENTIAL ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "gpa"
+        ],
+        "kname": "gpa",
+        "kformat": "%f",
+        "kunits": "J/kg"
+    },
+    {
+        "variable_type": "PLUME ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "pla"
+        ],
+        "kname": "pla",
+        "kformat": "%f",
+        "kunits": "?"
+    },
+    {
+        "variable_type": "SPECIFIC VOLUME ANOMALY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sva"
+        ],
+        "kname": "sva",
+        "kformat": "%f",
+        "kunits": "10^-8 *m^3/kg"
+    },
+    {
+        "variable_type": "STABILITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "E"
+        ],
+        "kname": "E",
+        "kformat": "%f",
+        "kunits": "rad^2/m"
+    },
+    {
+        "variable_type": "STABILITY", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "E10^-8"
+        ],
+        "kname": "E10e_8",
+        "kformat": "%f",
+        "kunits": "10^-8 *rad^2/m"
+    },
 
 
 
