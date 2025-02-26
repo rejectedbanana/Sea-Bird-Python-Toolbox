@@ -2388,6 +2388,213 @@
         "kformat": "%f",
         "kunits": "umol/l"
     },
+    {
+        "variable_type": "RAW OXYGEN, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeoxpd"
+        ],
+        "kname": "sbeoxpd",
+        "kformat": "%f",
+        "kunits": "usec"
+    },
+    {
+        "variable_type": "RAW OXYGEN, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeoxpdv"
+        ],
+        "kname": "sbeoxpdv",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "RAW OXYGEN, SBE 63", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeoxpd1"
+        ],
+        "kname": "sbeoxpd1",
+        "kformat": "%f",
+        "kunits": "usec"
+    },
+    {
+        "variable_type": "RAW OXYGEN, SBE 63", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeoxpd1"
+        ],
+        "kname": "sbeoxpdv1",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "RAW OXYGEN TEMPERATURE, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeoxtv"
+        ],
+        "kname": "sbeoxtv",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "RAW OXYGEN TEMPERATURE, SBE 63", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeoxtv1"
+        ],
+        "kname": "sbeoxtv1",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "OXYGEN TEMPERATURE, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeoxTC"
+        ],
+        "kname": "sbeoxTC",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "OXYGEN TEMPERATURE, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeoxTF"
+        ],
+        "kname": "sbeoxTF",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "OXYGEN TEMPERATURE, SBE 63", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeoxTC1"
+        ],
+        "kname": "sbeoxTC1",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg C"
+    },
+    {
+        "variable_type": "OXYGEN TEMPERATURE, SBE 63", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeoxTF1"
+        ],
+        "kname": "sbeoxTF1",
+        "kformat": "%f",
+        "kunits": "ITS-90, deg F"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeopoxML/L"
+        ],
+        "kname": "sbeopoxML_L",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeopoxMg/L"
+        ],
+        "kname": "sbeopoxMg_L",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeopoxPS"
+        ],
+        "kname": "sbeopoxPS",
+        "kformat": "%f",
+        "kunits": "% saturation"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeopoxMm/Kg"
+        ],
+        "kname": "sbeopoxMm_Kg",
+        "kformat": "%f",
+        "kunits": "umol/kg"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeopoxMm/L"
+        ],
+        "kname": "sbeopoxMm_L",
+        "kformat": "%f",
+        "kunits": "umol/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "SECONADRY", 
+        "sbs_variable": [
+            "sbeopoxML/L1"
+        ],
+        "kname": "sbeopoxML_L1",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "SECONADRY", 
+        "sbs_variable": [
+            "sbeopoxMg/L1"
+        ],
+        "kname": "sbeopoxMg_L1",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeopoxPS1"
+        ],
+        "kname": "sbeopoxPS1",
+        "kformat": "%f",
+        "kunits": "% saturation"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeopoxMm/Kg1"
+        ],
+        "kname": "sbeopoxMm_Kg1",
+        "kformat": "%f",
+        "kunits": "umol/kg"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 63", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeopoxMm/L1"
+        ],
+        "kname": "sbeopoxMm_L1",
+        "kformat": "%f",
+        "kunits": "umol/l"
+    },
+
+
+
+
+
+
+
 
 
     {
@@ -2402,6 +2609,12 @@
     },
 
 
+
+
+
+
+
+
     {
         "variable_type": "FLAG", 
         "source": "PRIMARY", 
@@ -2412,17 +2625,6 @@
         "kformat": "%f",
         "kunits": "SBE scan flag"
     }, 
-
-    {
-        "variable_type": "OXYGEN", 
-        "source": "RAW OXYGEN, SBE 43", 
-        "sbs_variable": [
-            "sbeox0Mg/L"
-        ],
-        "kname": "sbeox0mg_L",
-        "kformat": "%f",
-        "kunits": "mg/L"
-    },
     {
         "variable_type": "SCAN COUNT", 
         "source": "scan", 
