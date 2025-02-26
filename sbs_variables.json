@@ -2178,8 +2178,216 @@
         "kformat": "%f",
         "kunits": "mmhos/cm"
     },
-
-
+    {
+        "variable_type": "RAW OXYGEN, SBE 43", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeox0V"
+        ],
+        "kname": "sbeox0V",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "RAW OXYGEN", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeox0F"
+        ],
+        "kname": "sbeox0F",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "RAW OXYGEN", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeox1V"
+        ],
+        "kname": "sbeox1V",
+        "kformat": "%f",
+        "kunits": "V"
+    },
+    {
+        "variable_type": "RAW OXYGEN", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeox1F"
+        ],
+        "kname": "sbeox1F",
+        "kformat": "%f",
+        "kunits": "Hz"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeox0ML/L"
+        ],
+        "kname": "sbeox0mL_L",
+        "kformat": "%f",
+        "kunits": "mL/L"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeox0Mg/L"
+        ],
+        "kname": "sbeox0mg_L",
+        "kformat": "%f",
+        "kunits": "mg/L"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeox0PS"
+        ],
+        "kname": "sbeox0PS",
+        "kformat": "%f",
+        "kunits": "% saturation"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeox0Mm/Kg"
+        ],
+        "kname": "sbeox0mum_kg",
+        "kformat": "%f",
+        "kunits": "micromol/kg"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeox0Mm/L"
+        ],
+        "kname": "sbeox0mum_L",
+        "kformat": "%f",
+        "kunits": "micromole/L"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "sbeox0dOV/dT"
+        ],
+        "kname": "sbeox0dOV_dT",
+        "kformat": "%f",
+        "kunits": "V/s"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeox1ML/L"
+        ],
+        "kname": "sbeox1mL_L",
+        "kformat": "%f",
+        "kunits": "mL/L"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeox1Mg/L"
+        ],
+        "kname": "sbeox1mg_L",
+        "kformat": "%f",
+        "kunits": "mg/L"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeox1PS"
+        ],
+        "kname": "sbeox1PS",
+        "kformat": "%f",
+        "kunits": "% saturation"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeox1Mm/Kg"
+        ],
+        "kname": "sbeox1mum_kg",
+        "kformat": "%f",
+        "kunits": "micromol/kg"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeox1Mm/L"
+        ],
+        "kname": "sbeox1mum_L",
+        "kformat": "%f",
+        "kunits": "micromole/L"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, SBE 43", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "sbeox1dOV/dT"
+        ],
+        "kname": "sbeox1dOV_dT",
+        "kformat": "%f",
+        "kunits": "V/s"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN DIFFERENCE, SBE 43", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "sbeox0ML/Ldiff"
+        ],
+        "kname": "sbeox0ML_Ldiff",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN DIFFERENCE, SBE 43", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "sbeox0Mg/Ldiff"
+        ],
+        "kname": "sbeox0Mg_Ldiff",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN DIFFERENCE, SBE 43", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "sbeox0PSdiff"
+        ],
+        "kname": "sbeox0PSdiff",
+        "kformat": "%f",
+        "kunits": "% saturation"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN DIFFERENCE, SBE 43", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "sbeox0Mm/Kgdiff"
+        ],
+        "kname": "sbeox0Mm_Kgdiff",
+        "kformat": "%f",
+        "kunits": "umol/kg"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN DIFFERENCE, SBE 43", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "sbeox0Mm/Ldiff"
+        ],
+        "kname": "sbeox0Mm_Ldiff",
+        "kformat": "%f",
+        "kunits": "umol/l"
+    },
 
 
     {
