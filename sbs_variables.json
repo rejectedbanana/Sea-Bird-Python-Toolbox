@@ -2859,6 +2859,340 @@
         "kformat": "%f",
         "kunits": "umol/kg"
     },
+    {
+        "variable_type": "CDOM, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "cdomflTC0"
+        ],
+        "kname": "cdomflTC0",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "CDOM, TURNER CYCLOPS", 
+        "source": "SECONADRY", 
+        "sbs_variable": [
+            "cdomflTC1"
+        ],
+        "kname": "cdomflTC1",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "CDOM DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "cdomflTCdiff"
+        ],
+        "kname": "cdomflTCdiff",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "FLUORESCENCE, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "chloroflTC0"
+        ],
+        "kname": "chloroflTC0",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUORESCENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "chloroflTC1"
+        ],
+        "kname": "chloroflTC1",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUORESCENCE DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "chloroflTCdiff"
+        ],
+        "kname": "chloroflTCdiff",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "CRUDE OIL, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "croilflTC0"
+        ],
+        "kname": "croilflTC0",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "CRUDE OIL, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "croilflTC1"
+        ],
+        "kname": "croilflTC1",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "CRUDE OIL DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "croilflTCdiff"
+        ],
+        "kname": "croilflTCdiff",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "FLUORESCEIN, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flflTC0"
+        ],
+        "kname": "flflTC0",
+        "kformat": "%f",
+        "kunits": "ppb"
+    },
+    {
+        "variable_type": "FLUORESCEIN, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flflTC1"
+        ],
+        "kname": "flflTC1",
+        "kformat": "%f",
+        "kunits": "ppb"
+    },
+    {
+        "variable_type": "FLUORESCEIN DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flflTCdiff"
+        ],
+        "kname": "flflTCdiff",
+        "kformat": "%f",
+        "kunits": "ppb"
+    },
+    {
+        "variable_type": "OPTICAL BRIGHTENERS, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "obrflTC0"
+        ],
+        "kname": "obrflTC0",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "OPTICAL BRIGHTENERS, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "obrflTC1"
+        ],
+        "kname": "obrflTC1",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "OPTICAL BRIGHTENERS DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "obrflTCdiff"
+        ],
+        "kname": "obrflTCdiff",
+        "kformat": "%f",
+        "kunits": "ppb QS"
+    },
+    {
+        "variable_type": "PHYCOCYANIN, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "phycyflTC0"
+        ],
+        "kname": "phycyflTC0",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "PHYCOCYANIN, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "phycyflTC1"
+        ],
+        "kname": "phycyflTC1",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "PHYCOCYANIN DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "phycyflTCdiff"
+        ],
+        "kname": "phycyflTCdiff",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "PHYCOERYTHRIN, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "phyeryflTC0"
+        ],
+        "kname": "phyeryflTC0",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "PHYCOERYTHRIN, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "phyeryflTC1"
+        ],
+        "kname": "phyeryflTC1",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "PHYCOERYTHRIN DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "phyeryflTCdiff"
+        ],
+        "kname": "phyeryflTCdiff",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "REFINED FUELS, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "rfuels0"
+        ],
+        "kname": "rfuels0",
+        "kformat": "%f",
+        "kunits": "ppb NS"
+    },
+    {
+        "variable_type": "REFINED FUELS, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "rfuels1"
+        ],
+        "kname": "rfuels1",
+        "kformat": "%f",
+        "kunits": "ppb NS"
+    },
+    {
+        "variable_type": "REFINED FUELS DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "rfuelsdiff"
+        ],
+        "kname": "rfuelsdiff",
+        "kformat": "%f",
+        "kunits": "ppb NS"
+    },
+    {
+        "variable_type": "RHODAMINE, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "rhodflTC0"
+        ],
+        "kname": "rhodflTC0",
+        "kformat": "%f",
+        "kunits": "ppb"
+    },
+    {
+        "variable_type": "RHODAMINE, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "rhodflTC1"
+        ],
+        "kname": "rhodflTC1",
+        "kformat": "%f",
+        "kunits": "ppb"
+    },
+    {
+        "variable_type": "RHODAMINE DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "rhodflTCdiff"
+        ],
+        "kname": "rhodflTCdiff",
+        "kformat": "%f",
+        "kunits": "ppb"
+    },
+    {
+        "variable_type": "TURBIDITY, TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbflTC0"
+        ],
+        "kname": "turbflTC0",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+    {
+        "variable_type": "TURBIDITY, TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "turbflTC1"
+        ],
+        "kname": "turbflTC1",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+    {
+        "variable_type": "TURBIDITY DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "turbflTCdiff"
+        ],
+        "kname": "turbflTCdiff",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+
+
+    {
+        "variable_type": ", TURNER CYCLOPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            ""
+        ],
+        "kname": "",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": ", TURNER CYCLOPS", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            ""
+        ],
+        "kname": "",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": " DIFFERENCE, TURNER CYCLOPS", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            ""
+        ],
+        "kname": "",
+        "kformat": "%f",
+        "kunits": ""
+    },
+
+
 
 
 
