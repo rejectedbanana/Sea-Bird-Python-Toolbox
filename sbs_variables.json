@@ -2589,8 +2589,276 @@
         "kunits": "umol/l"
     },
 
-
-
+    {
+        "variable_type": "DERIVED OXYGEN, AANDERAA OPTODE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "opoxML/L"
+        ],
+        "kname": "opoxML_L",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, AANDERAA OPTODE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "opoxMg/L"
+        ],
+        "kname": "opoxMg_L",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, AANDERAA OPTODE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "opoxPS"
+        ],
+        "kname": "opoxPS",
+        "kformat": "%f",
+        "kunits": "% saturation"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, AANDERAA OPTODE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "opoxMm/L"
+        ],
+        "kname": "opoxMm_L",
+        "kformat": "%f",
+        "kunits": "umol/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxC"
+        ],
+        "kname": "oxC",
+        "kformat": "%f",
+        "kunits": "uA"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsC"
+        ],
+        "kname": "oxsC",
+        "kformat": "%f",
+        "kunits": "uA"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxTC"
+        ],
+        "kname": "oxTC",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxTF"
+        ],
+        "kname": "oxTF",
+        "kformat": "%f",
+        "kunits": "deg F"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsTC"
+        ],
+        "kname": "oxsTC",
+        "kformat": "%f",
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsTF"
+        ],
+        "kname": "oxsTF",
+        "kformat": "%f",
+        "kunits": "deg F"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxML/L"
+        ],
+        "kname": "oxML_L",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxMg/L"
+        ],
+        "kname": "oxMg_L",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxPS"
+        ],
+        "kname": "oxPS",
+        "kformat": "%f",
+        "kunits": "% saturation"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxMm/Kg"
+        ],
+        "kname": "oxMm_Kg",
+        "kformat": "%f",
+        "kunits": "umol/kg"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxdOC/dT"
+        ],
+        "kname": "oxdOC_dT",
+        "kformat": "%f",
+        "kunits": "doc/dt"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsML/L"
+        ],
+        "kname": "oxsML_L",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsMg/L"
+        ],
+        "kname": "oxsMg_L",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsPS"
+        ],
+        "kname": "oxsPS",
+        "kformat": "%f",
+        "kunits": "% saturation"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsMm/Kg"
+        ],
+        "kname": "oxsMm_Kg",
+        "kformat": "%f",
+        "kunits": "umol/kg"
+    },
+    {
+        "variable_type": "DERIVED OXYGEN, BECKMAN/YSI", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsdOC/dT"
+        ],
+        "kname": "oxsdOC_dT",
+        "kformat": "%f",
+        "kunits": "doc/dt"
+    },
+    {
+        "variable_type": "IOW OXYGEN SATURATIONS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "iowOxML/L"
+        ],
+        "kname": "iowOxML/L",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "GARCIA & GORDON OXYGEN SATURATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsolML/L"
+        ],
+        "kname": "oxsolML_L",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "GARCIA & GORDON OXYGEN SATURATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsolMg/L"
+        ],
+        "kname": "oxsolMg_L",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "GARCIA & GORDON OXYGEN SATURATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsolMm/Kg"
+        ],
+        "kname": "oxsolMm_Kg",
+        "kformat": "%f",
+        "kunits": "umol/kg"
+    },
+    {
+        "variable_type": "WEISS OXYGEN SATURATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsatML/L"
+        ],
+        "kname": "oxsatML_L",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "WEISS OXYGEN SATURATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsatMg/L"
+        ],
+        "kname": "oxsatMg_L",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "WEISS OXYGEN SATURATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "oxsatMm/Kg"
+        ],
+        "kname": "oxsatMm_Kg",
+        "kformat": "%f",
+        "kunits": "umol/kg"
+    },
 
 
 
