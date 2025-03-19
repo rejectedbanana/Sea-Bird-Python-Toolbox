@@ -3159,10 +3159,310 @@
         "kformat": "%f",
         "kunits": "NTU"
     },
+    {
+        "variable_type": "FLUORESCENCE, BIOSPHERICAL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "chConctr"
+        ],
+        "kname": "chConctr",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "FLUORESCENCE, BIOSPHERICAL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "naFluor"
+        ],
+        "kname": "naFluor",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "FLUORESCENCE, BIOSPHERICAL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "product"
+        ],
+        "kname": "product",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "FLUORESCENCE, CHELSEA AQUA 3", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flC"
+        ],
+        "kname": "flC",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUORESCENCE, CHELSEA AQUA 3", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flC1"
+        ],
+        "kname": "flC1",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUORESCENCE, CHELSEA AQUA 3", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flCdiff"
+        ],
+        "kname": "flCdiff",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUORESCENCE, CHELSEA MINI CHL CON", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flCM"
+        ],
+        "kname": "flCM",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUORESCENCE, CHELSEA UV AQUATRACKA", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flCUVA"
+        ],
+        "kname": "flCUVA",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUORESCENCE, CHELSEA UV AQUATRACKA", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flCUVA1"
+        ],
+        "kname": "flCUVA1",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUORESCENCE, CHELSEA UV AQUATRACKA", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flCUVAdiff"
+        ],
+        "kname": "flCUVAdiff",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "CHLOROPHYLL A FLUORESCENCE, DR HAARDT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "haardtC"
+        ],
+        "kname": "haardtC",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "PHYCOERYTHRIN FLUORESCENCE, DR HAARDT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "haardtP"
+        ],
+        "kname": "haardtP",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "YELLOW SUB FLUORESCENCE, DR HAARDT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "haardtY"
+        ],
+        "kname": "haardtY",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "FLUORESCENCE, SEAPOINT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flSP"
+        ],
+        "kname": "flSP",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "FLUORESCENCE, SEAPOINT", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flSP1"
+        ],
+        "kname": "flSP1",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "FLUORESCENCE, SEAPOINT", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flSPdiff"
+        ],
+        "kname": "flSPdiff",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "RHODAMINE, SEAPOINT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flSPR"
+        ],
+        "kname": "flSPR",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "ULTRAVIOLET, SEAPOINT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flSPuv0"
+        ],
+        "kname": "flSPuv0",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "ULTRAVIOLET, SEAPOINT", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flSPuv1"
+        ],
+        "kname": "flSPuv1",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "ULTRAVIOLET, SEAPOINT", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flSPuvdiff"
+        ],
+        "kname": "flSPuvdiff",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "SEATECH FLUORESCENCE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flS"
+        ],
+        "kname": "flS",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "TURNER 10-005", 
+        "source": "flT", 
+        "sbs_variable": [
+            "flT"
+        ],
+        "kname": "",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "TURNER 10-Au-005", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flTAu"
+        ],
+        "kname": "flTAu",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "TURNER SCUFA CORRECTED", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flSCC"
+        ],
+        "kname": "flSCC",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "TURNER SCUFA CORRECTED", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flSCC1"
+        ],
+        "kname": "flSCC1",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "TURNER SCUFA CORRECTED", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flSCCdiff"
+        ],
+        "kname": "flSCCdiff",
+        "kformat": "%f",
+        "kunits": "RFU"
+    },
+    {
+        "variable_type": "TURNER SCUFA", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flScufa"
+        ],
+        "kname": "flScufa",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "TURNER SCUFA", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flScufa1"
+        ],
+        "kname": "flScufa1",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "TURNER SCUFA", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flScufadiff"
+        ],
+        "kname": "flScufadiff",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "WETLABS AC3", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetChAbs"
+        ],
+        "kname": "wetChAbs",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
 
 
     {
-        "variable_type": ", TURNER CYCLOPS", 
+        "variable_type": "FLUORESCENCE, CHELSEA AQUA 3", 
         "source": "PRIMARY", 
         "sbs_variable": [
             ""
@@ -3191,9 +3491,6 @@
         "kformat": "%f",
         "kunits": ""
     },
-
-
-
 
 
 
