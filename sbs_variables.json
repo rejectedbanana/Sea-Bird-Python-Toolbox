@@ -3949,10 +3949,212 @@
         "kformat": "%f",
         "kunits": "Counts"
     },
+    {
+        "variable_type": "TURBIDITY, SEAPOINT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "seaTurbMtr"
+        ],
+        "kname": "seaTurbMtr",
+        "kformat": "%f",
+        "kunits": "FTU"
+    },
+    {
+        "variable_type": "TURBIDITY, SEAPOINT", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "seaTurbMtr1"
+        ],
+        "kname": "seaTurbMtr1",
+        "kformat": "%f",
+        "kunits": "FTU"
+    },
+    {
+        "variable_type": "TURBIDITY DIFFERENCE, SEAPOINT", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "seaTurbMtrdiff"
+        ],
+        "kname": "seaTurbMtrdiff",
+        "kformat": "%f",
+        "kunits": "FTU"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO BB", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETbb0"
+        ],
+        "kname": "turbWETbb0",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO BB", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "turbWETbb1"
+        ],
+        "kname": "turbWETbb1",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO BB", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETbb2"
+        ],
+        "kname": "turbWETbb2",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO BB", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETbb3"
+        ],
+        "kname": "turbWETbb3",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO BB", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETbb4"
+        ],
+        "kname": "turbWETbb4",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO BB", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETbb5"
+        ],
+        "kname": "turbWETbb5",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO BB", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "turbWETbbdiff"
+        ],
+        "kname": "turbWETbbdiff",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETntu0"
+        ],
+        "kname": "turbWETntu0",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "turbWETntu1"
+        ],
+        "kname": "turbWETntu1",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETntu2"
+        ],
+        "kname": "turbWETntu2",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETntu3"
+        ],
+        "kname": "turbWETntu3",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETntu4"
+        ],
+        "kname": "turbWETntu4",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETntu5"
+        ],
+        "kname": "turbWETntu5",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS ECO", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "turbWETntudiff"
+        ],
+        "kname": "turbWETntudiff",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS SEAOWL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "turbWETSeaOWLbb0"
+        ],
+        "kname": "turbWETSeaOWLbb0",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY, WETLABS SEAOWL", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "turbWETSeaOWLbb1"
+        ],
+        "kname": "turbWETSeaOWLbb1",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
+    {
+        "variable_type": "TURBIDITY DIFFERENCE, WETLABS SEAOWL", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "turbWETSeaOWLbb2"
+        ],
+        "kname": "turbWETSeaOWLbb2",
+        "kformat": "%f",
+        "kunits": "m^-1/sr"
+    },
 
+
+    
 
     {
-        "variable_type": "BACKSCATTER, TURNER SCUFA", 
+        "variable_type": "TURBIDITY, TURNER SCUFA", 
         "source": "PRIMARY", 
         "sbs_variable": [
             ""
@@ -3962,7 +4164,7 @@
         "kunits": ""
     },
     {
-        "variable_type": "BACKSCATTER, TURNER SCUFA", 
+        "variable_type": "TURBIDITY, TURNER SCUFA", 
         "source": "SECONDARY", 
         "sbs_variable": [
             ""
@@ -3972,7 +4174,7 @@
         "kunits": ""
     },
     {
-        "variable_type": "BACKSCATTER DIFFERENCE, TURNER SCUFA", 
+        "variable_type": "TURBIDITY DIFFERENCE, TURNER SCUFA", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             ""
