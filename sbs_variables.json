@@ -1570,7 +1570,7 @@
     },
     {
         "variable_type": "DENSITY", 
-        "source": "SECONDAY", 
+        "source": "SECONDARY", 
         "sbs_variable": [
             "density11"
         ],
@@ -2540,7 +2540,7 @@
     },
     {
         "variable_type": "DERIVED OXYGEN, SBE 63", 
-        "source": "SECONADRY", 
+        "source": "SECONDARY", 
         "sbs_variable": [
             "sbeopoxML/L1"
         ],
@@ -2550,7 +2550,7 @@
     },
     {
         "variable_type": "DERIVED OXYGEN, SBE 63", 
-        "source": "SECONADRY", 
+        "source": "SECONDARY", 
         "sbs_variable": [
             "sbeopoxMg/L1"
         ],
@@ -2871,7 +2871,7 @@
     },
     {
         "variable_type": "CDOM, TURNER CYCLOPS", 
-        "source": "SECONADRY", 
+        "source": "SECONDARY", 
         "sbs_variable": [
             "cdomflTC1"
         ],
@@ -3210,7 +3210,7 @@
         "kunits": "ug/l"
     },
     {
-        "variable_type": "FLUORESCENCE, CHELSEA AQUA 3", 
+        "variable_type": "FLUORESCENCE DIFFERENCE, CHELSEA AQUA 3", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             "flCdiff"
@@ -3250,7 +3250,7 @@
         "kunits": "ug/l"
     },
     {
-        "variable_type": "FLUORESCENCE, CHELSEA UV AQUATRACKA", 
+        "variable_type": "FLUORESCENCE DIFFERENCE, CHELSEA UV AQUATRACKA", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             "flCUVAdiff"
@@ -3310,7 +3310,7 @@
         "kunits": ""
     },
     {
-        "variable_type": "FLUORESCENCE, SEAPOINT", 
+        "variable_type": "FLUORESCENCE DIFFERENCE, SEAPOINT", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             "flSPdiff"
@@ -3350,7 +3350,7 @@
         "kunits": ""
     },
     {
-        "variable_type": "ULTRAVIOLET, SEAPOINT", 
+        "variable_type": "ULTRAVIOLET DIFFERENCE, SEAPOINT", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             "flSPuvdiff"
@@ -3410,7 +3410,7 @@
         "kunits": "RFU"
     },
     {
-        "variable_type": "TURNER SCUFA CORRECTED", 
+        "variable_type": "TURNER SCUFA CORRECTED DIFFERENCE", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             "flSCCdiff"
@@ -3440,7 +3440,7 @@
         "kunits": ""
     },
     {
-        "variable_type": "TURNER SCUFA", 
+        "variable_type": "TURNER SCUFA DIFFERENCE", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             "flScufadiff"
@@ -3459,10 +3459,500 @@
         "kformat": "%f",
         "kunits": "1/m"
     },
+    {
+        "variable_type": "WETLABS CDOM", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetCDOM"
+        ],
+        "kname": "wetCDOM",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS CDOM", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "wetCDOM1"
+        ],
+        "kname": "wetCDOM1",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS CDOM", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetCDOM2"
+        ],
+        "kname": "wetCDOM2",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS CDOM", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetCDOM3"
+        ],
+        "kname": "wetCDOM3",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS CDOM", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetCDOM4"
+        ],
+        "kname": "wetCDOM4",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS CDOM", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetCDOM5"
+        ],
+        "kname": "wetCDOM5",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS CDOM DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "wetCDOMdiff"
+        ],
+        "kname": "wetCDOMdiff",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS AC3 CHLOROPHYLL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetChConc"
+        ],
+        "kname": "wetChConc",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS ECO-AFL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flECO-AFL"
+        ],
+        "kname": "flECO_AFL",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS ECO-AFL", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flECO-AFL1"
+        ],
+        "kname": "flECO_AFL1",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS ECO-AFL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flECO-AFL2"
+        ],
+        "kname": "flECO_AFL2",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS ECO-AFL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flECO-AFL3"
+        ],
+        "kname": "flECO_AFL3",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS ECO-AFL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flECO-AFL4"
+        ],
+        "kname": "flECO_AFL4",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS ECO-AFL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flECO-AFL5"
+        ],
+        "kname": "flECO_AFL5",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETLABS ECO-AFL DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flECO-AFLdiff"
+        ],
+        "kname": "flECO_AFLdiff",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "FLUOROMETER, WETLABS SEAOWL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flWETSeaOWLchl0"
+        ],
+        "kname": "flWETSeaOWLchl0",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUOROMETER, WETLABS SEAOWL", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flWETSeaOWLchl1"
+        ],
+        "kname": "flWETSeaOWLchl1",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FLUOROMETER DIFFERENCE, WETLABS SEAOWL", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flWETSeaOWLchldiff"
+        ],
+        "kname": "flWETSeaOWLchldiff",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FDOM, WETLABS SEAOWL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flWETSeaOWLfdom0"
+        ],
+        "kname": "flWETSeaOWLfdom0",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FDOM, WETLABS SEAOWL", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "flWETSeaOWLfdom1"
+        ],
+        "kname": "flWETSeaOWLfdom1",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "FDOM DIFFERENCE, WETLABS SEAOWL", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "flWETSeaOWLfdomdiff"
+        ],
+        "kname": "flWETSeaOWLfdomdiff",
+        "kformat": "%f",
+        "kunits": "ug/l"
+    },
+    {
+        "variable_type": "WETSTAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetStar"
+        ],
+        "kname": "wetStar",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETSTAR", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "wetStar1"
+        ],
+        "kname": "wetStar1",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETSTAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetStar2"
+        ],
+        "kname": "wetStar2",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETSTAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetStar3"
+        ],
+        "kname": "wetStar3",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETSTAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetStar4"
+        ],
+        "kname": "wetStar4",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETSTAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetStar5"
+        ],
+        "kname": "wetStar5",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "WETSTAR DIFFERENCE", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "wetStardiff"
+        ],
+        "kname": "wetStardiff",
+        "kformat": "%f",
+        "kunits": "mg/m^3"
+    },
+    {
+        "variable_type": "BACKSCATTER, D & A", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "obs"
+        ],
+        "kname": "obs",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+    {
+        "variable_type": "BACKSCATTER, D & A", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "obs1"
+        ],
+        "kname": "obs1",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+    {
+        "variable_type": "BACKSCATTER DIFFERENCE, D & A", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "obsdiff"
+        ],
+        "kname": "obsdiff",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+    {
+        "variable_type": "CHELSEA NEPHELOMETER", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "nephc"
+        ],
+        "kname": "nephc",
+        "kformat": "%f",
+        "kunits": "FTU"
+    },
+    {
+        "variable_type": "BACKSCATTER, D & A", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "obs3+"
+        ],
+        "kname": "obs3plus",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+    {
+        "variable_type": "BACKSCATTER, D & A", 
+        "source": "SECONDARY",
+        "sbs_variable": [
+            "obs3+1"
+        ],
+        "kname": "obs3plus1",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+    {
+        "variable_type": "BACKSCATTER DIFFERENCE, D & A", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "obs3+diff"
+        ],
+        "kname": "obs3plusdiff",
+        "kformat": "%f",
+        "kunits": "NTU"
+    },
+    {
+        "variable_type": "BACKSCATTER, DR. HAARDT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "haardtT"
+        ],
+        "kname": "haardtT",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BACKSCATTER, IFREMER", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "diff"
+        ],
+        "kname": "diff",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BACKSCATTER, SEATECH LS6000", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "stLs6000"
+        ],
+        "kname": "stLs6000",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BACKSCATTER, SEATECH LS6000", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "stLs60001"
+        ],
+        "kname": "stLs60001",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BACKSCATTER DIFFERENCE, SEATECH LS6000", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "stLs6000diff"
+        ],
+        "kname": "stLs6000diff",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BACKSCATTER, TURNER SCUFA", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "obsscufa"
+        ],
+        "kname": "obsscufa",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BACKSCATTER, TURNER SCUFA", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "obsscufa1"
+        ],
+        "kname": "obsscufa1",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BACKSCATTER DIFFERENCE, TURNER SCUFA", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "obsscufadiff"
+        ],
+        "kname": "obsscufadiff",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BACKSCATTER, WETLABS RAW COUNTS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wl0"
+        ],
+        "kname": "wl0",
+        "kformat": "%f",
+        "kunits": "Counts"
+    },
+    {
+        "variable_type": "BACKSCATTER, WETLABS RAW COUNTS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wl1"
+        ],
+        "kname": "wl1",
+        "kformat": "%f",
+        "kunits": "Counts"
+    },
+    {
+        "variable_type": "BACKSCATTER, WETLABS RAW COUNTS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wl2"
+        ],
+        "kname": "wl2",
+        "kformat": "%f",
+        "kunits": "Counts"
+    },
+    {
+        "variable_type": "BACKSCATTER, WETLABS RAW COUNTS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wl3"
+        ],
+        "kname": "wl3",
+        "kformat": "%f",
+        "kunits": "Counts"
+    },
+    {
+        "variable_type": "BACKSCATTER, WETLABS RAW COUNTS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wl4"
+        ],
+        "kname": "wl4",
+        "kformat": "%f",
+        "kunits": "Counts"
+    },
+    {
+        "variable_type": "BACKSCATTER, WETLABS RAW COUNTS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wl5"
+        ],
+        "kname": "wl5",
+        "kformat": "%f",
+        "kunits": "Counts"
+    },
 
 
     {
-        "variable_type": "FLUORESCENCE, CHELSEA AQUA 3", 
+        "variable_type": "BACKSCATTER, TURNER SCUFA", 
         "source": "PRIMARY", 
         "sbs_variable": [
             ""
@@ -3472,7 +3962,7 @@
         "kunits": ""
     },
     {
-        "variable_type": ", TURNER CYCLOPS", 
+        "variable_type": "BACKSCATTER, TURNER SCUFA", 
         "source": "SECONDARY", 
         "sbs_variable": [
             ""
@@ -3482,7 +3972,7 @@
         "kunits": ""
     },
     {
-        "variable_type": " DIFFERENCE, TURNER CYCLOPS", 
+        "variable_type": "BACKSCATTER DIFFERENCE, TURNER SCUFA", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             ""
@@ -3491,9 +3981,6 @@
         "kformat": "%f",
         "kunits": ""
     },
-
-
-
 
 
     {
