@@ -4479,70 +4479,307 @@
         "kformat": "%f",
         "kunits": "spar"
     },
-
-
-
-
     {
-        "variable_type": "TRANSMISSOMETER, TURNER SCUFA", 
+        "variable_type": "METHANE FRANATECH METS", 
         "source": "PRIMARY", 
         "sbs_variable": [
-            ""
+            "meth"
         ],
-        "kname": "",
+        "kname": "meth",
         "kformat": "%f",
-        "kunits": ""
+        "kunits": "umol/l"
     },
     {
-        "variable_type": "TRANSMISSOMETER, TURNER SCUFA", 
-        "source": "SECONDARY", 
-        "sbs_variable": [
-            ""
-        ],
-        "kname": "",
-        "kformat": "%f",
-        "kunits": ""
-    },
-    {
-        "variable_type": "TRANSMISSOMETER DIFFERENCE, TURNER SCUFA", 
-        "source": "SECONDARY-PRIMARY", 
-        "sbs_variable": [
-            ""
-        ],
-        "kname": "",
-        "kformat": "%f",
-        "kunits": ""
-    },
-
-
-    {
-        "variable_type": "", 
-        "source": "", 
-        "sbs_variable": [
-            ""
-        ],
-        "kname": "",
-        "kformat": "%f",
-        "kunits": ""
-    },
-
-
-
-
-
-
-
-
-    {
-        "variable_type": "FLAG", 
+        "variable_type": "METHANE FRANATECH METS", 
         "source": "PRIMARY", 
         "sbs_variable": [
-            "flag"
+            "methT"
         ],
-        "kname": "flag",
+        "kname": "methT",
         "kformat": "%f",
-        "kunits": "SBE scan flag"
-    }, 
+        "kunits": "deg C"
+    },
+    {
+        "variable_type": "NITROGEN", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "n2satML/L"
+        ],
+        "kname": "n2satML_L",
+        "kformat": "%f",
+        "kunits": "ml/l"
+    },
+    {
+        "variable_type": "NITROGEN", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "n2satMg/L"
+        ],
+        "kname": "n2satMg_L",
+        "kformat": "%f",
+        "kunits": "mg/l"
+    },
+    {
+        "variable_type": "NITROGEN", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "n2satumol/kg"
+        ],
+        "kname": "n2satumol_kg",
+        "kformat": "%f",
+        "kunits": "umol/kg"
+    },
+    {
+        "variable_type": "OXIDATION REDUCTION POTENTIAL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "orp"
+        ],
+        "kname": "orp",
+        "kformat": "%f",
+        "kunits": "mV"
+    },
+    {
+        "variable_type": "pH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "ph"
+        ],
+        "kname": "ph",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "pH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "phInt"
+        ],
+        "kname": "phInt",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "pH", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "phExt"
+        ],
+        "kname": "phExt",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "ZAPS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "zaps"
+        ],
+        "kname": "zaps",
+        "kformat": "%f",
+        "kunits": "nmol"
+    },
+    {
+        "variable_type": "USER DEFINED VARIABLE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "user"
+        ],
+        "kname": "user",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "USER DEFINED VARIABLE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "user1"
+        ],
+        "kname": "user1",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "USER DEFINED VARIABLE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "user2"
+        ],
+        "kname": "user2",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "USER DEFINED VARIABLE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "user3"
+        ],
+        "kname": "user3",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "USER DEFINED VARIABLE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "user4"
+        ],
+        "kname": "user4",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "USER DEFINED VARIABLE", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "user5"
+        ],
+        "kname": "user5",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "USER POLYNOMIAL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "upoly0"
+        ],
+        "kname": "upoly0",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "USER POLYNOMIAL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "upoly1"
+        ],
+        "kname": "upoly1",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "USER POLYNOMIAL", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "upoly2"
+        ],
+        "kname": "upoly2",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "ALTIMETER", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "altM"
+        ],
+        "kname": "altM",
+        "kformat": "%f",
+        "kunits": "m"
+    },
+    {
+        "variable_type": "ALTIMETER", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "altF"
+        ],
+        "kname": "altF",
+        "kformat": "%f",
+        "kunits": "ft"
+    },
+    {
+        "variable_type": "BOTTOM CONTACT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "bct"
+        ],
+        "kname": "bct",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BOTTLE POSITION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "bpos"
+        ],
+        "kname": "bpos",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BOTTLES CLOSED (HB)", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "HBBotCls"
+        ],
+        "kname": "HBBotCls",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "BOTTLES FIRED", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "nbf"
+        ],
+        "kname": "nbf",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "NEW BOTTLE POSITION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "newpos"
+        ],
+        "kname": "newpos",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "PUMP STATUS", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "pumps"
+        ],
+        "kname": "pumps",
+        "kformat": "%f",
+        "kunits": ""
+    },
+
+    {
+        "variable_type": "BYTE COUNT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "nbytes"
+        ],
+        "kname": "nbytes",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "MODULO ERROR COUNT", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "modError"
+        ],
+        "kname": "modError",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "MODULO WORD", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "mod"
+        ],
+        "kname": "mod",
+        "kformat": "%s",
+        "kunits": ""
+    },
     {
         "variable_type": "SCAN COUNT", 
         "source": "scan", 
@@ -4552,5 +4789,25 @@
         "kname": "scan",
         "kformat": "%f",
         "kunits": ""
+    },
+    {
+        "variable_type": "SCANS PER BIN", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "nbin"
+        ],
+        "kname": "nbin",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "FLAG", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "flag"
+        ],
+        "kname": "flag",
+        "kformat": "%f",
+        "kunits": "SBE scan flag"
     }
 ]
