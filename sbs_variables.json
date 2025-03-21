@@ -4149,12 +4149,342 @@
         "kformat": "%f",
         "kunits": "m^-1/sr"
     },
+    {
+        "variable_type": "TRANSMISSOMETER, CHELSEA/SEATECH BEAM ATTENUATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "bat"
+        ],
+        "kname": "bat",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, CHELSEA/SEATECH BEAM ATTENUATION", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "bat1"
+        ],
+        "kname": "bat1",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER DIFFERENCE, CHELSEA/SEATECH BEAM ATTENUATION", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "batdiff"
+        ],
+        "kname": "",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS AC3 BEAM TRANSMISSION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetBAttn"
+        ],
+        "kname": "wetBAttn",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM ATTENUATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarAt"
+        ],
+        "kname": "CStarAt",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM ATTENUATION", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "CStarAt0"
+        ],
+        "kname": "CStarAt0",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM ATTENUATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarAt1"
+        ],
+        "kname": "CStarAt1",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM ATTENUATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarAt2"
+        ],
+        "kname": "CStarAt2",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM ATTENUATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarAt3"
+        ],
+        "kname": "CStarAt3",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM ATTENUATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarAt4"
+        ],
+        "kname": "CStarAt4",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM ATTENUATION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarAt5"
+        ],
+        "kname": "CStarAt5",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER DIFFERENCE, WETLABS C-STAR BEAM ATTENUATION", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "CStarAtdiff"
+        ],
+        "kname": "CStarAtdiff",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, CHELSEA/SEATECH BEAM TRANSMISSION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "xmiss"
+        ],
+        "kname": "xmiss",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, CHELSEA/SEATECH BEAM TRANSMISSION", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "xmiss1"
+        ],
+        "kname": "xmiss1",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER DIFFERENCE, CHELSEA/SEATECH BEAM TRANSMISSION", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "xmissdiff"
+        ],
+        "kname": "xmissdiff",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS AC3 BEAM TRANSMISSION   ", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "wetBTrans"
+        ],
+        "kname": "wetBTrans",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM TRANSMISSION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarTr"
+        ],
+        "kname": "CStarTr",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM TRANSMISSION", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "CStarTr0"
+        ],
+        "kname": "CStarTr0",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM TRANSMISSION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarTr1"
+        ],
+        "kname": "CStarTr1",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM TRANSMISSION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarTr2"
+        ],
+        "kname": "CStarTr2",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM TRANSMISSION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarTr3"
+        ],
+        "kname": "CStarTr3",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM TRANSMISSION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarTr4"
+        ],
+        "kname": "CStarTr4",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER, WETLABS C-STAR BEAM TRANSMISSION", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "CStarTr5"
+        ],
+        "kname": "CStarTr5",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "TRANSMISSOMETER DIFFERENCE, WETLABS C-STAR BEAM TRANSMISSION", 
+        "source": "SECONDARY-PRIMARY", 
+        "sbs_variable": [
+            "CStarTrdiff"
+        ],
+        "kname": "CStarTrdiff",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "LISST", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "lisstBC"
+        ],
+        "kname": "lisstBC",
+        "kformat": "%f",
+        "kunits": "1/m"
+    },
+    {
+        "variable_type": "LISST", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "lisstOT"
+        ],
+        "kname": "lisstOT",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "LISST", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "lisstMD"
+        ],
+        "kname": "lisstMD",
+        "kformat": "%f",
+        "kunits": "u"
+    },
+    {
+        "variable_type": "LISST", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "lisstTVC"
+        ],
+        "kname": "lisstTVC",
+        "kformat": "%f",
+        "kunits": "ul/l"
+    },
+    {
+        "variable_type": "PAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "cpar"
+        ],
+        "kname": "cpar",
+        "kformat": "%f",
+        "kunits": "%"
+    },
+    {
+        "variable_type": "PAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "par"
+        ],
+        "kname": "par",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "PAR", 
+        "source": "SECONDARY", 
+        "sbs_variable": [
+            "par1"
+        ],
+        "kname": "par1",
+        "kformat": "%f",
+        "kunits": ""
+    },
+    {
+        "variable_type": "PAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "par/log"
+        ],
+        "kname": "par_log",
+        "kformat": "%f",
+        "kunits": "umol photons/m2/s"
+    },
+    {
+        "variable_type": "PAR", 
+        "source": "PRIMARY", 
+        "sbs_variable": [
+            "spar"
+        ],
+        "kname": "spar",
+        "kformat": "%f",
+        "kunits": "spar"
+    },
 
 
-    
+
 
     {
-        "variable_type": "TURBIDITY, TURNER SCUFA", 
+        "variable_type": "TRANSMISSOMETER, TURNER SCUFA", 
         "source": "PRIMARY", 
         "sbs_variable": [
             ""
@@ -4164,7 +4494,7 @@
         "kunits": ""
     },
     {
-        "variable_type": "TURBIDITY, TURNER SCUFA", 
+        "variable_type": "TRANSMISSOMETER, TURNER SCUFA", 
         "source": "SECONDARY", 
         "sbs_variable": [
             ""
@@ -4174,7 +4504,7 @@
         "kunits": ""
     },
     {
-        "variable_type": "TURBIDITY DIFFERENCE, TURNER SCUFA", 
+        "variable_type": "TRANSMISSOMETER DIFFERENCE, TURNER SCUFA", 
         "source": "SECONDARY-PRIMARY", 
         "sbs_variable": [
             ""
